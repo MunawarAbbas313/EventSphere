@@ -1,11 +1,12 @@
 {
+    "installCommand": "cd eventsphere && npm install",
+    "buildCommand": "cd eventsphere && npm run build",
+    "outputDirectory": "eventsphere/dist",
+    "framework": "vite",
     "rewrites": [
         {
             "source": "/(.*)",
             "destination": "/"
         }
-    ],
-    "buildCommand": "cd eventsphere && npm install && npm run build",
-    "outputDirectory": "eventsphere/dist",
-    "framework": "vite"
+    ]
 }
