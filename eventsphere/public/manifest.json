@@ -1,0 +1,16 @@
+{
+    "name": "EventSphere",
+    "short_name": "EventSphere",
+    "description": "Discover, plan, book, and experience extraordinary events.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#3b82f6",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}
